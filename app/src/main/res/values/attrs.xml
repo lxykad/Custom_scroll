@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomAnimationLayout">
+        <attr name="can_alpha" format="boolean" />
+        <attr name="can_scaleX" format="boolean" />
+        <attr name="can_scaleY" format="boolean" />
+        <attr name="from_bg_color" format="color" />
+        <attr name="to_bg_color" format="color" />
+    </declare-styleable>
+
+    <attr name="scroll_translation">
+
+        <flag name="fromTop" value="0x01" />
+        <flag name="fromBottom" value="0x02" />
+        <flag name="fromLeft" value="0x03" />
+        <flag name="fromRight" value="0x04" />
+
+    </attr>
+
+</resources>

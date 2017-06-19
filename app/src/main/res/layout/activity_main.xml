@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lxy="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lxy.custom.animation.MainActivity">
+
+    <com.lxy.custom.animation.CustomScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.lxy.custom.animation.CustomAnimationLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="3333333333"
+                android:textSize="20sp"
+                lxy:can_scaleX="true"
+                lxy:from_bg_color="#ff0000"
+                lxy:to_bg_color="#00ff00" />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@mipmap/ic_launcher" />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="600dp"
+                android:src="@mipmap/ic_launcher"
+                lxy:can_scaleX="true" />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@mipmap/ic_launcher"
+                lxy:can_scaleX="true" />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@mipmap/ic_launcher"
+                lxy:can_scaleX="true" />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@mipmap/ic_launcher"
+                lxy:can_scaleX="true" />
+
+        </com.lxy.custom.animation.CustomAnimationLayout>
+
+    </com.lxy.custom.animation.CustomScrollView>
+
+</FrameLayout>
